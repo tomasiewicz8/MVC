@@ -1,0 +1,12 @@
+body {
+    background: rgb(255, 0, 0);
+}
+
+form {
+    display: flex;
+    
+}
+
+label {
+    align-items: center;
+}
