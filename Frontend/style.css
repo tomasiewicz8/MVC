@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
 body{
-    background-image: url("https://i.postimg.cc/L4yWgH7Q/90627.jpg");
+    font-family: 'Inter', sans-serif;
+    background: #21016d;
     background-size: cover;
     color: white;
 }
 
 form {
-    background: rgba(49, 0, 128, 0.448);
+    background: #2abfff98;
     width: 25%;
     height: 50%;
-    border-radius: 12%;
+    border-radius: 20px;
     font-size: 150%;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.425);
     margin: 10% 0% 0% 10%;
+    padding: 2%;
 }
 
 form div {
@@ -21,3 +25,27 @@ form div {
     flex-direction: column;
     height: 100%;
 }
+
+input[type="text"] {
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+    outline: none;
+    border: none;
+    margin: 2%;
+    padding: 1%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    background: #095f877a;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    color: white;
+    margin: 2%;
+    padding: 1.5%  3%;
+}
+
+
