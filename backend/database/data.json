@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Libro - Introducción a MVC",
+        "price": 25.99,
+        "description": "Libro educativo sobre la arquitectura Modelo-Vista-Controlador en PHP."
+    },
+    {
+        "id": 2,
+        "name": "Curso Online - Dominando Controladores",
+        "price": 49.99,
+        "description": "Acceso a un curso en línea para aprender a dominar el uso de controladores en arquitectura MVC."
+    },
+    {
+        "id": 3,
+        "name": "Herramienta - Generador de Modelos",
+        "price": 19.99,
+        "description": "Una herramienta que simplifica la generación de modelos en proyectos PHP utilizando el patrón MVC."
+    },
+    {
+        "id": 4,
+        "name": "Kit de Desarrollo MVC",
+        "price": 199.99,
+        "description": "Un completo kit de desarrollo que incluye herramientas, bibliotecas y ejemplos para trabajar con la arquitectura MVC en PHP."
+    },
+    {
+        "id": 5,
+        "name": "Conferencia - Avances en Vistas Interactivas",
+        "price": 39.99,
+        "description": "Entrada a una conferencia donde se presentarán los últimos avances en el desarrollo de vistas interactivas en aplicaciones MVC en PHP."
+    },
+    {
+        "id": 6,
+        "name": "Curso Práctico de MVC",
+        "price": 89.99,
+        "description": "Un curso intensivo y práctico para aprender a implementar la arquitectura MVC en proyectos PHP del mundo real."
+    },
+    {
+        "id": 7,
+        "name": "Servicio de Consultoría MVC",
+        "price": 149.99,
+        "description": "Acceso a un servicio de consultoría personalizada para implementar y optimizar la arquitectura MVC en tu proyecto PHP."
+    },
+    {
+        "id": 8,
+        "name": "Librería - Utilidades para Controladores",
+        "price": 29.99,
+        "description": "Una librería con utilidades y funciones predefinidas para facilitar el desarrollo de controladores en aplicaciones PHP con arquitectura MVC."
+    },
+    {
+        "id": 9,
+        "name": "Kit de Pruebas para Modelos",
+        "price": 15.99,
+        "description": "Un conjunto de pruebas predefinidas para garantizar la calidad y funcionalidad de los modelos en proyectos PHP basados en MVC."
+    },
+    {
+        "id": 10,
+        "name": "Plugin - Integración MVC con Framework",
+        "price": 59.99,
+        "description": "Un plugin que facilita la integración de la arquitectura MVC en un framework PHP popular, simplificando el desarrollo y la gestión del código."
+    },
+    {
+        "id": 11,
+        "name": "Webinar - Mejores Prácticas en MVC",
+        "price": 19.99,
+        "description": "Participación en un seminario web que destaca las mejores prácticas en el diseño e implementación de la arquitectura Modelo-Vista-Controlador en PHP."
+    },
+    {
+        "id": 12,
+        "name": "Plantilla - Proyecto MVC Básico",
+        "price": 9.99,
+        "description": "Una plantilla lista para usar que proporciona una estructura básica para iniciar un proyecto PHP con arquitectura MVC."
+    },
+    {
+        "id": 13,
+        "name": "Hackathon MVC",
+        "price": 79.99,
+        "description": "Participación en un hackathon centrado en desarrollar soluciones innovadoras utilizando la arquitectura MVC en PHP."
+    },
+    {
+        "id": 14,
+        "name": "Plugin - Tema MVC para CMS",
+        "price": 49.99,
+        "description": "Un plugin que agrega un tema MVC personalizable y optimizado para proyectos basados en sistemas de gestión de contenidos (CMS) en PHP."
+    },
+    {
+        "id": 15,
+        "name": "Certificación en Desarrollo MVC",
+        "price": 129.99,
+        "description": "Examen de certificación que evalúa el conocimiento y habilidades en el desarrollo con arquitectura MVC en proyectos PHP."
+    }
+]
