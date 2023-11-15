@@ -1,3 +1,23 @@
-body {
-    background: linear-gradient(rgb(99, 124, 240) 80%,rgb(183, 243, 104));
+body{
+    background-image: url("https://i.postimg.cc/L4yWgH7Q/90627.jpg");
+    background-size: cover;
+    color: white;
+}
+
+form {
+    background: rgba(49, 0, 128, 0.448);
+    width: 25%;
+    height: 50%;
+    border-radius: 12%;
+    font-size: 150%;
+    border: 1px solid white;
+    margin: 10% 0% 0% 10%;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
