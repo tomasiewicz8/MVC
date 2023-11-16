@@ -1,9 +1,9 @@
 <?php
 include '../models/Producto.php';
 include '../helpers/JsonReader.php';
+
 class ProductoController
 {
-    // static method so we don't have to create an instance of the object
     public static function getAllProducts($filename)
     {
         try {
@@ -15,15 +15,22 @@ class ProductoController
                     $productData['id'],
                     $productData['name'],
                     $productData['price'],
-                    $productData['description']
+                    $productData['description'],
+                    $productData['image']
                 );
-                
+
                 $dataFront[] = $product->getAllInfoProduct();
             }
 
-            return $dataFront;
+            // response has to be a JSON 
+            header('Content-Type: application/json');
+            echo json_encode($dataFront);
         } catch (Exception $e) {
-            echo 'Error: ' . $e->getMessage();
+            // handling exceptions
+            header('HTTP/1.1 500 Internal Server Error');
+            echo json_encode(['error' => $e->getMessage()]);
         }
     }
 }
+
+ProductoController::getAllProducts('../database/data.json');
