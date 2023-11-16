@@ -1,3 +1,4 @@
+require ("../backend/controller/ProductoController.php")
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@
     </form>
 
     <section>
-        
+        ProductoController::getAllProducts('../database/data.json');
     </section>
 
 </body>
