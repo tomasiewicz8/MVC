@@ -1,5 +1,5 @@
 <?php
-    require("../backend/controller/ProductoController.php");
+    include("../backend/controller/ProductoController.php");
 ?> 
 <html lang="en">
 <head>
@@ -19,13 +19,7 @@
     </form>
 
     <section>
-    <?php
-        $list = ProductoController::getAllProducts('../database/data.json');
-
-        foreach ($list as $product) { 
-            
-        }
-    ?> 
+   
     </section>
 
 </body>
