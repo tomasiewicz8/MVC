@@ -1,6 +1,6 @@
 <?php
-include('../models/Producto.php');
-include('../helpers/JsonReader.php');
+include '../models/Producto.php';
+include '../helpers/JsonReader.php';
 class ProductoController
 {
     // static method so we don't have to create an instance of the object
@@ -27,5 +27,3 @@ class ProductoController
         }
     }
 }
-
-ProductoController::getAllProducts('../database/data.json');
