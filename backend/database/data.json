@@ -3,90 +3,105 @@
         "id": 1,
         "name": "Libro - Introducción a MVC",
         "price": 25.99,
-        "description": "Libro educativo sobre la arquitectura Modelo-Vista-Controlador en PHP."
+        "description": "Libro educativo sobre la arquitectura Modelo-Vista-Controlador en PHP.",
+        "imagen": "https://m.media-amazon.com/images/I/61nflYe9L5L._AC_UF1000,1000_QL80_.jpg"
     },
     {
         "id": 2,
         "name": "Curso Online - Dominando Controladores",
         "price": 49.99,
-        "description": "Acceso a un curso en línea para aprender a dominar el uso de controladores en arquitectura MVC."
+        "description": "Acceso a un curso en línea para aprender a dominar el uso de controladores en arquitectura MVC.",
+        "imagen": "https://i.ytimg.com/vi/LHJHgpD5cFA/maxresdefault.jpg"
     },
     {
         "id": 3,
         "name": "Herramienta - Generador de Modelos",
         "price": 19.99,
-        "description": "Una herramienta que simplifica la generación de modelos en proyectos PHP utilizando el patrón MVC."
+        "description": "Una herramienta que simplifica la generación de modelos en proyectos PHP utilizando el patrón MVC.",
+        "imagen": "https://i.ytimg.com/vi/ExAs5ySWqGg/sddefault.jpg"
     },
     {
         "id": 4,
         "name": "Kit de Desarrollo MVC",
         "price": 199.99,
-        "description": "Un completo kit de desarrollo que incluye herramientas, bibliotecas y ejemplos para trabajar con la arquitectura MVC en PHP."
+        "description": "Un completo kit de desarrollo que incluye herramientas, bibliotecas y ejemplos para trabajar con la arquitectura MVC en PHP.",
+        "imagen": "https://keepcoding.io/wp-content/uploads/2022/07/que-es-la-arquitectura-MVC.jpg"
     },
     {
         "id": 5,
         "name": "Conferencia - Avances en Vistas Interactivas",
         "price": 39.99,
-        "description": "Entrada a una conferencia donde se presentarán los últimos avances en el desarrollo de vistas interactivas en aplicaciones MVC en PHP."
+        "description": "Entrada a una conferencia donde se presentarán los últimos avances en el desarrollo de vistas interactivas en aplicaciones MVC en PHP.",
+        "imagen": "https://www.theopennotebook.com/wp-content/uploads/2021/03/iStock-1220771846.jpg"
     },
     {
         "id": 6,
         "name": "Curso Práctico de MVC",
         "price": 89.99,
-        "description": "Un curso intensivo y práctico para aprender a implementar la arquitectura MVC en proyectos PHP del mundo real."
+        "description": "Un curso intensivo y práctico para aprender a implementar la arquitectura MVC en proyectos PHP del mundo real.",
+        "imagen": "https://i.ytimg.com/vi/N07EW6ln1NI/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBazxCmgdoWcfSTn-1_tDHBk1_Nww"
     },
     {
         "id": 7,
         "name": "Servicio de Consultoría MVC",
         "price": 149.99,
-        "description": "Acceso a un servicio de consultoría personalizada para implementar y optimizar la arquitectura MVC en tu proyecto PHP."
+        "description": "Acceso a un servicio de consultoría personalizada para implementar y optimizar la arquitectura MVC en tu proyecto PHP.",
+        "imagen": "data:image/jpeg;base64,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"
     },
     {
         "id": 8,
         "name": "Librería - Utilidades para Controladores",
         "price": 29.99,
-        "description": "Una librería con utilidades y funciones predefinidas para facilitar el desarrollo de controladores en aplicaciones PHP con arquitectura MVC."
+        "description": "Una librería con utilidades y funciones predefinidas para facilitar el desarrollo de controladores en aplicaciones PHP con arquitectura MVC.",
+        "imagen": "https://quees.com/wp-content/uploads/2022/12/que-es-libreria-programacion.jpg"
     },
     {
         "id": 9,
         "name": "Kit de Pruebas para Modelos",
         "price": 15.99,
-        "description": "Un conjunto de pruebas predefinidas para garantizar la calidad y funcionalidad de los modelos en proyectos PHP basados en MVC."
+        "description": "Un conjunto de pruebas predefinidas para garantizar la calidad y funcionalidad de los modelos en proyectos PHP basados en MVC.",
+        "imagen": "https://devcamp.es/wp-content/uploads/2021/10/Imagen-programacio%CC%81n_467x230.jpg"
     },
     {
         "id": 10,
         "name": "Plugin - Integración MVC con Framework",
         "price": 59.99,
-        "description": "Un plugin que facilita la integración de la arquitectura MVC en un framework PHP popular, simplificando el desarrollo y la gestión del código."
+        "description": "Un plugin que facilita la integración de la arquitectura MVC en un framework PHP popular, simplificando el desarrollo y la gestión del código.",
+        "imagen": "https://datos.gob.es/sites/default/files/styles/image_json_ld/public/blog/image/librerias_para_visualizacionesw.jpg"
     },
     {
         "id": 11,
         "name": "Webinar - Mejores Prácticas en MVC",
         "price": 19.99,
-        "description": "Participación en un seminario web que destaca las mejores prácticas en el diseño e implementación de la arquitectura Modelo-Vista-Controlador en PHP."
+        "description": "Participación en un seminario web que destaca las mejores prácticas en el diseño e implementación de la arquitectura Modelo-Vista-Controlador en PHP.",
+        "imagen": "https://impulso06.com/wp-content/uploads/2022/12/Programas-informaticos-necesarios-para-trabajar.jpg.png"
     },
     {
         "id": 12,
         "name": "Plantilla - Proyecto MVC Básico",
         "price": 9.99,
-        "description": "Una plantilla lista para usar que proporciona una estructura básica para iniciar un proyecto PHP con arquitectura MVC."
+        "description": "Una plantilla lista para usar que proporciona una estructura básica para iniciar un proyecto PHP con arquitectura MVC.",
+        "imagen": "https://i.ytimg.com/vi/_nLoZBbzJTg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnENpaB2wCHLFPd5tgSrLmAxBmuQ"
     },
     {
         "id": 13,
         "name": "Hackathon MVC",
         "price": 79.99,
-        "description": "Participación en un hackathon centrado en desarrollar soluciones innovadoras utilizando la arquitectura MVC en PHP."
+        "description": "Participación en un hackathon centrado en desarrollar soluciones innovadoras utilizando la arquitectura MVC en PHP.",
+        "imagen": "https://media.geeksforgeeks.org/wp-content/uploads/20230724195303/Hackathons-For-Beginners.webp"
     },
     {
         "id": 14,
         "name": "Plugin - Tema MVC para CMS",
         "price": 49.99,
-        "description": "Un plugin que agrega un tema MVC personalizable y optimizado para proyectos basados en sistemas de gestión de contenidos (CMS) en PHP."
+        "description": "Un plugin que agrega un tema MVC personalizable y optimizado para proyectos basados en sistemas de gestión de contenidos (CMS) en PHP.",
+        "imagen": "https://www.inesdi.com/sites/default/files/2022-05/tipos%20de%20software.jpg"
     },
     {
         "id": 15,
         "name": "Certificación en Desarrollo MVC",
         "price": 129.99,
-        "description": "Examen de certificación que evalúa el conocimiento y habilidades en el desarrollo con arquitectura MVC en proyectos PHP."
+        "description": "Examen de certificación que evalúa el conocimiento y habilidades en el desarrollo con arquitectura MVC en proyectos PHP.",
+        "image": "https://successforallacademy.com/wp-content/uploads/2022/06/Copia-de-certificado-edita-como-un-pro-3.jpg"
     }
 ]
