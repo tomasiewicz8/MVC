@@ -1,4 +1,6 @@
-require ("../backend/controller/ProductoController.php")
+<?php
+    require ("../backend/controller/ProductoController.php");
+?> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +19,11 @@ require ("../backend/controller/ProductoController.php")
     </form>
 
     <section>
-        ProductoController::getAllProducts('../database/data.json');
+    <?php
+        $list = ProductoController::getAllProducts('../database/data.json');
+
+        foreach ($list as $product) {
+    ?> 
     </section>
 
 </body>
