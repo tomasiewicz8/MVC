@@ -22,7 +22,9 @@
     <?php
         $list = ProductoController::getAllProducts('../database/data.json');
 
-        foreach ($list as $product) {}
+        foreach ($list as $product) {
+            
+        }
     ?> 
     </section>
 
