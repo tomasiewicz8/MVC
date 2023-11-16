@@ -2,13 +2,13 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background: #21016d;
+    background: #407c87;
     background-size: cover;
     color: white;
 }
 
 form {
-    background: #2abfff98;
+    background: #a5dbdd;
     width: 25%;
     height: 50%;
     border-radius: 20px;
@@ -41,11 +41,24 @@ button {
     align-items: center;
     gap: 8px;
     font-family: 'Inter', sans-serif;
-    background: #095f877a;
+    background: #407c87;
     border: 1px solid rgba(255, 255, 255, 0.425);
     color: white;
     margin: 2%;
     padding: 1.5%  3%;
+}
+
+.php {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2%; 
+  }
+
+.products {
+    background: #a5dbdd;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    padding: 2%;
+    border-radius: 20px;
 }
 
 

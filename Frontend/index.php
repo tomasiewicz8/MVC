@@ -18,8 +18,17 @@
         </div>
     </form>
 
-    <section>
-    
+    <section class="php">
+        <?php
+            $list = ProductoController::getAllProducts('../database/data.json');
+            foreach ($list as $producto) {
+                echo "<div class='products' id='$producto['id']>";
+                echo "<img src='$producto['image']' alt='$producto['name']"
+                echo "<p>$producto['nombre']</p>";
+                echo "<p>Precio: $producto['precio']</p>";
+                echo "</div>";
+            }
+        ?> 
     </section>
 
 </body>
