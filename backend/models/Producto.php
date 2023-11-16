@@ -5,12 +5,14 @@ class Producto
     public $name;
     public $price;
     public $description;
-    public function __construct($id, $name, $price, $description)
+    public $image;
+    public function __construct($id, $name, $price, $description, $image)
     {
         $this->id = $id;
         $this->name = $name;
         $this->price = $price;
         $this->description = $description;
+        $this->image = $image;
     }
 
     // getters 
@@ -30,6 +32,10 @@ class Producto
     {
         return $this->description;
     }
+    public function getImage()
+    {
+        return $this->image;
+    }
 
     // setters 
     public function setId($id)
@@ -48,7 +54,12 @@ class Producto
     {
         $this->description = $description;
     }
-    public function getAllInfoProduct(){
-        return array("id"=>$this->id, "name"=>$this->name, "price"=>$this->price, "description"=>$this->description);
+    public function setImage($image)
+    {
+        $this->image = $image;
+    }
+    public function getAllInfoProduct()
+    {
+        return array("id" => $this->id, "name" => $this->name, "price" => $this->price, "description" => $this->description, "image" => $this->image);
     }
 }
