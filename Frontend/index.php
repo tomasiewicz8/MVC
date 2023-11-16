@@ -1,5 +1,5 @@
 <?php
-    include("../backend/controller/ProductoController.php");
+    require("../backend/controller/ProductoController.php");
 ?> 
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@
     </form>
 
     <section>
-   
+    
     </section>
 
 </body>
