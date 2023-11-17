@@ -4,63 +4,63 @@
         "name": "Libro - Introducción a MVC",
         "price": 25.99,
         "description": "Libro educativo sobre la arquitectura Modelo-Vista-Controlador en PHP.",
-        "image": "https://m.media-amazon.com/images/I/61nflYe9L5L._AC_UF1000,1000_QL80_.jpg"
+        "image": "https://p4.wallpaperbetter.com/wallpaper/676/293/313/programmer-wallpaper-preview.jpg"
     },
     {
         "id": 2,
         "name": "Curso Online - Dominando Controladores",
         "price": 49.99,
         "description": "Acceso a un curso en línea para aprender a dominar el uso de controladores en arquitectura MVC.",
-        "image": "https://i.ytimg.com/vi/LHJHgpD5cFA/maxresdefault.jpg"
+        "image": "https://www.criptonoticias.com/wp-content/uploads/2022/11/programacion-ethereum-solidity-1140x570.jpg"
     },
     {
         "id": 3,
         "name": "Herramienta - Generador de Modelos",
         "price": 19.99,
         "description": "Una herramienta que simplifica la generación de modelos en proyectos PHP utilizando el patrón MVC.",
-        "image": "https://i.ytimg.com/vi/ExAs5ySWqGg/sddefault.jpg"
+        "image": "https://i.blogs.es/9201c7/i3gaps/1366_2000.png"
     },
     {
         "id": 4,
         "name": "Kit de Desarrollo MVC",
         "price": 199.99,
         "description": "Un completo kit de desarrollo que incluye herramientas, bibliotecas y ejemplos para trabajar con la arquitectura MVC en PHP.",
-        "image": "https://keepcoding.io/wp-content/uploads/2022/07/que-es-la-arquitectura-MVC.jpg"
+        "image": "https://img1.wallspic.com/previews/2/8/0/0/30082/30082-dispositivo_electronico-luz-ingenieria_mecanica-informacion-barra_de_espacio-x750.jpg"
     },
     {
         "id": 5,
         "name": "Conferencia - Avances en Vistas Interactivas",
         "price": 39.99,
         "description": "Entrada a una conferencia donde se presentarán los últimos avances en el desarrollo de vistas interactivas en aplicaciones MVC en PHP.",
-        "image": "https://www.theopennotebook.com/wp-content/uploads/2021/03/iStock-1220771846.jpg"
+        "image": "https://i.pinimg.com/originals/9d/44/d5/9d44d5530abdc3d7f05ae0b74edf0803.png"
     },
     {
         "id": 6,
         "name": "Curso Práctico de MVC",
         "price": 89.99,
         "description": "Un curso intensivo y práctico para aprender a implementar la arquitectura MVC en proyectos PHP del mundo real.",
-        "image": "https://i.ytimg.com/vi/N07EW6ln1NI/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBazxCmgdoWcfSTn-1_tDHBk1_Nww"
+        "image": "https://thumbs.dreamstime.com/z/tecnolog%C3%ADa-de-seguridad-inform%C3%A1tica-alta-fondo-concepto-global-digital-ilustraci%C3%B3n-vectorial-abstracta-muchos-usos-para-la-204862407.jpg"
     },
     {
         "id": 7,
         "name": "Servicio de Consultoría MVC",
         "price": 149.99,
         "description": "Acceso a un servicio de consultoría personalizada para implementar y optimizar la arquitectura MVC en tu proyecto PHP.",
-        "image": ""
+        "image": "https://wallpapers.com/images/hd/cybersecurity-background-j5rim7e49wayggex.jpg"
     },
     {
         "id": 8,
         "name": "Librería - Utilidades para Controladores",
         "price": 29.99,
         "description": "Una librería con utilidades y funciones predefinidas para facilitar el desarrollo de controladores en aplicaciones PHP con arquitectura MVC.",
-        "image": "https://quees.com/wp-content/uploads/2022/12/que-es-libreria-programacion.jpg"
+        "image": "https://img.freepik.com/fotos-premium/codigo-programacion-fondo-tecnologia-tunel-codificacion-informatica-tacita_485374-5851.jpg?w=2000"
     },
     {
         "id": 9,
         "name": "Kit de Pruebas para Modelos",
         "price": 15.99,
         "description": "Un conjunto de pruebas predefinidas para garantizar la calidad y funcionalidad de los modelos en proyectos PHP basados en MVC.",
-        "image": "https://devcamp.es/wp-content/uploads/2021/10/image-programacio%CC%81n_467x230.jpg"
+        "image": "https://wc.wallpaperuse.com/wallp/48-486407_s.png"
     },
     {
         "id": 10,
@@ -74,7 +74,7 @@
         "name": "Webinar - Mejores Prácticas en MVC",
         "price": 19.99,
         "description": "Participación en un seminario web que destaca las mejores prácticas en el diseño e implementación de la arquitectura Modelo-Vista-Controlador en PHP.",
-        "image": "https://impulso06.com/wp-content/uploads/2022/12/Programas-informaticos-necesarios-para-trabajar.jpg.png"
+        "image": "https://d3hjf51r9j54j7.cloudfront.net/wp-content/uploads/sites/9/2023/03/Zoom-IQ-620x330-1.png"
     },
     {
         "id": 12,
@@ -88,7 +88,7 @@
         "name": "Hackathon MVC",
         "price": 79.99,
         "description": "Participación en un hackathon centrado en desarrollar soluciones innovadoras utilizando la arquitectura MVC en PHP.",
-        "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230724195303/Hackathons-For-Beginners.webp"
+        "image": "https://media.istockphoto.com/id/1257225341/es/vector/aterrizaje-isom%C3%A9trico-hackathon-desarrollo-de-software.jpg?s=612x612&w=0&k=20&c=hPTlFZYKbKcvlUnBvzzbu7Q25NgaRqc4oMRZdQcwFug="
     },
     {
         "id": 14,

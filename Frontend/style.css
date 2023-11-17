@@ -11,7 +11,6 @@ body{
     background: #407c87;
     background-size: cover;
     color: white;
-    display: flex;
     gap: 100px;
 }
 
@@ -22,7 +21,8 @@ form {
     border-radius: 20px;
     font-size: 150%;
     border: 1px solid rgba(255, 255, 255, 0.425);
-    margin: 10% 0% 0% 8%;
+    box-shadow: 0px 8px 16px #00000098;
+    margin: 10% 0% 20% 8%;
     padding: 2%;
 }
 
@@ -32,6 +32,7 @@ form div {
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 input[type="text"] {
@@ -51,32 +52,48 @@ button {
     font-family: 'Inter', sans-serif;
     background: #407c87;
     border: 1px solid rgba(255, 255, 255, 0.425);
+    box-shadow: 0px 8px 16px #00000098;
     color: white;
-    margin: 2%;
     padding: 1.5%  3%;
 }
 
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .productList {
-    overflow-y: scroll;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 20px 20px; 
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3%;
+    gap: 5%;
 }
 
 .productList div {
+    display: flex;
+    flex-direction: column;
+    background: #2abfff98;
+    text-align: left;
     height: auto;
-    width: 320px;
+    width: 100%;
+    box-shadow: 0px 8px 16px #00000098;
     border: 1px solid white;
-    padding: 20px;
+    padding: 3%;
     border-radius: 20px;
 }
 
+.productList div p {
+    flex-grow: 1; 
+}
+
 .productList div img {
-    aspect-ratio: 1 / 1;
-    width: 250px;
-    object-fit: cover;
-    object-position: center center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 1% 10% 10% 10%;
+    box-shadow: 0px 8px 16px #00000098;
+    align-self: flex-start;
 }
 
 
