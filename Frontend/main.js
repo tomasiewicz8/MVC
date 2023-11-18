@@ -25,7 +25,7 @@ function displayProducts(products) {
             <p>Name: ${product.name}</p>
             <p>Price: ${product.price}</p>
             <p>Description: ${product.description}</p>
-            <div class="image"><img src='${product.image}' alt='${product.name}'/></div>
+            <img src='${product.image}' alt='${product.name}'/>
         `
     productListContainer.appendChild(productElement)
   })
