@@ -22,7 +22,7 @@ form {
     font-size: 150%;
     border: 1px solid rgba(255, 255, 255, 0.425);
     box-shadow: 0px 8px 16px #00000098;
-    margin: 10% 0% 20% 8%;
+    margin: 10% 0% 17% 8%;
     padding: 2%;
 }
 
@@ -57,17 +57,10 @@ button {
     padding: 1.5%  3%;
 }
 
-.arrow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
 .productList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 3%;
-    gap: 5%;
 }
 
 .productList div {
@@ -76,9 +69,10 @@ button {
     background: #2abfff98;
     text-align: left;
     height: auto;
-    width: 100%;
+    width: 90%;
     box-shadow: 0px 8px 16px #00000098;
     border: 1px solid white;
+    margin: 5%;
     padding: 3%;
     border-radius: 20px;
 }
