@@ -22,7 +22,6 @@ function displayProducts(products) {
   products.forEach((product) => {
     var productElement = document.createElement('div')
     productElement.innerHTML = `
-            <p>ID: ${product.id}</p>
             <p>Name: ${product.name}</p>
             <p>Price: ${product.price}</p>
             <p>Description: ${product.description}</p>
