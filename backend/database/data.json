@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Libro - Introducción a MVC <br><br>",
+        "name": "Libro - Introducción a MVC",
         "price": 25.99,
         "description": "Libro educativo sobre la arquitectura Modelo-Vista-Controlador en PHP.",
         "image": "https://p4.wallpaperbetter.com/wallpaper/676/293/313/programmer-wallpaper-preview.jpg"
@@ -22,7 +22,7 @@
     },
     {
         "id": 4,
-        "name": "Kit de Desarrollo MVC<br><br>",
+        "name": "Kit de Desarrollo MVC",
         "price": 199.99,
         "description": "Un completo kit de desarrollo que incluye herramientas, bibliotecas y ejemplos para trabajar con la arquitectura MVC en PHP.",
         "image": "https://img1.wallspic.com/previews/2/8/0/0/30082/30082-dispositivo_electronico-luz-ingenieria_mecanica-informacion-barra_de_espacio-x750.jpg"
@@ -36,14 +36,14 @@
     },
     {
         "id": 6,
-        "name": "Curso Práctico de MVC<br><br>",
+        "name": "Curso Práctico de MVC",
         "price": 89.99,
         "description": "Un curso intensivo y práctico para aprender a implementar la arquitectura MVC en proyectos PHP del mundo real.",
         "image": "https://thumbs.dreamstime.com/z/tecnolog%C3%ADa-de-seguridad-inform%C3%A1tica-alta-fondo-concepto-global-digital-ilustraci%C3%B3n-vectorial-abstracta-muchos-usos-para-la-204862407.jpg"
     },
     {
         "id": 7,
-        "name": "Servicio de Consultoría MVC<br><br>",
+        "name": "Servicio de Consultoría MVC",
         "price": 149.99,
         "description": "Acceso a un servicio de consultoría personalizada para implementar y optimizar la arquitectura MVC en tu proyecto PHP.",
         "image": "https://wallpapers.com/images/hd/cybersecurity-background-j5rim7e49wayggex.jpg"
@@ -57,7 +57,7 @@
     },
     {
         "id": 9,
-        "name": "Kit de Pruebas para Modelos<br><br>",
+        "name": "Kit de Pruebas para Modelos",
         "price": 15.99,
         "description": "Un conjunto de pruebas predefinidas para garantizar la calidad y funcionalidad de los modelos en proyectos PHP basados en MVC.",
         "image": "https://wc.wallpaperuse.com/wallp/48-486407_s.png"
@@ -78,21 +78,21 @@
     },
     {
         "id": 12,
-        "name": "Plantilla - Proyecto MVC Básico<br><br>",
+        "name": "Plantilla - Proyecto MVC Básico",
         "price": 9.99,
         "description": "Una plantilla lista para usar que proporciona una estructura básica para iniciar un proyecto PHP con arquitectura MVC.",
         "image": "https://i.ytimg.com/vi/_nLoZBbzJTg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnENpaB2wCHLFPd5tgSrLmAxBmuQ"
     },
     {
         "id": 13,
-        "name": "Hackathon MVC<br><br>",
+        "name": "Hackathon MVC",
         "price": 79.99,
         "description": "Participación en un hackathon centrado en desarrollar soluciones innovadoras utilizando la arquitectura MVC en PHP.",
         "image": "https://media.istockphoto.com/id/1257225341/es/vector/aterrizaje-isom%C3%A9trico-hackathon-desarrollo-de-software.jpg?s=612x612&w=0&k=20&c=hPTlFZYKbKcvlUnBvzzbu7Q25NgaRqc4oMRZdQcwFug="
     },
     {
         "id": 14,
-        "name": "Plugin - Tema MVC para CMS<br><br>",
+        "name": "Plugin - Tema MVC para CMS",
         "price": 49.99,
         "description": "Un plugin que agrega un tema MVC personalizable y optimizado para proyectos basados en sistemas de gestión de contenidos (CMS) en PHP.",
         "image": "https://www.inesdi.com/sites/default/files/2022-05/tipos%20de%20software.jpg"

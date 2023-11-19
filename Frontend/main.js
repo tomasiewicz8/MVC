@@ -21,8 +21,12 @@ function displayProducts(products) {
 
   products.forEach((product) => {
     var productElement = document.createElement('div')
+    let nameFinal = product.name;
+    if (product.name.length <=  27) {
+      nameFinal += "<br><br>";
+    }
     productElement.innerHTML = `
-            <h2> ${product.name}</h2>
+            <h2> ${nameFinal}</h2>
             <p class="price">Price: ${product.price}</p>
             <p>Description: ${product.description}</p>
             <div class="image"><img src='${product.image}' alt='${product.name}'/></div>
