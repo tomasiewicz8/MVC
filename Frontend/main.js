@@ -22,10 +22,10 @@ function displayProducts(products) {
   products.forEach((product) => {
     var productElement = document.createElement('div')
     productElement.innerHTML = `
-            <p>Name: ${product.name}</p>
-            <p>Price: ${product.price}</p>
+            <h2> ${product.name}</h2>
+            <p class="price">Price: ${product.price}</p>
             <p>Description: ${product.description}</p>
-            <img src='${product.image}' alt='${product.name}'/>
+            <div class="image"><img src='${product.image}' alt='${product.name}'/></div>
         `
     productListContainer.appendChild(productElement)
   })

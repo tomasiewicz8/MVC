@@ -22,7 +22,7 @@ form {
     font-size: 150%;
     border: 1px solid rgba(255, 255, 255, 0.425);
     box-shadow: 0px 8px 16px #00000098;
-    margin: 10% 0% 17% 8%;
+    margin: 10% 0% 10% 8%;
     padding: 2%;
 }
 
@@ -77,16 +77,27 @@ button {
     border-radius: 20px;
 }
 
+.price {
+    font-size: 150%;
+}
+
 .productList div p {
     flex-grow: 1; 
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 0px 8px 16px #00000098;
 }
 
 .productList div img {
     width: 300px;
     height: 200px;
-    margin: 2.5% 5%;
     border-radius: 20px;
-    box-shadow: 0px 8px 16px #00000098;
+    margin-left: 1.5%;
     align-self: flex-start;
     
 }
