@@ -4,7 +4,7 @@ include '../helpers/JsonReader.php';
 
 class ProductoController
 {
-    public static function getAllProducts($filename)
+    public static function getAllProducts($filename, $productName = null)
     {
         try {
             $data = JsonReader::readData($filename);
@@ -19,7 +19,10 @@ class ProductoController
                     $productData['image']
                 );
 
-                $dataFront[] = $product->getAllInfoProduct();
+                // stripos: method to find if there is a word in a string
+                if ($productName === null || stripos($product->getName(), $productName) !== false) {
+                    $dataFront[] = $product->getAllInfoProduct();
+                }
             }
 
             // response has to be a JSON 
@@ -33,4 +36,9 @@ class ProductoController
     }
 }
 
-ProductoController::getAllProducts('../database/data.json');
+// Obtener el nombre del producto de la solicitud POST
+$productName = isset($_POST['product']) ? $_POST['product'] : null;
+
+// Llamar al método con el nombre del producto (puede ser nulo)
+ProductoController::getAllProducts('../database/data.json', $productName);
+?>
