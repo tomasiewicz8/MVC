@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,16 +8,16 @@
 </head>
 <body>
     
-    <form action="/backend/controller/ProductoController.php" method="post">
+    <form id="productForm">
         <div>
             <label for="product">Introduce un producto:</label>
-            <input type="text" name="product" required autocomplete="off">
-            <button type="submit" value="">Buscar<img src="./assets/search.svg" alt="" srcset=""></button>
+            <input type="text" id="product" name="product" required autocomplete="off">
+            <button type="button" onclick="searchProduct()">Buscar<img src="./assets/search.svg" alt="" srcset=""></button>
         </div>
     </form>
 
     <section id='productList' class="productList">
-        
+        <!-- Aquí se mostrarán los resultados de la búsqueda -->
     </section>
 
     <script src="main.js"></script>
